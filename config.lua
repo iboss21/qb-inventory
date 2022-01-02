@@ -1,3 +1,4 @@
+-- The Lux Empire OG
 Config = {}
 
 Config.VendingObjects = {

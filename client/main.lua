@@ -1,3 +1,4 @@
+-- The Lux Empire OG
 -- Variables
 
 local QBCore = exports['qb-core']:GetCoreObject()
