@@ -1,4 +1,3 @@
--- The Lux Empire OG
 Config = {}
 
 Config.VendingObjects = {
@@ -10,6 +9,8 @@ Config.VendingObjects = {
 Config.BinObjects = {
     "prop_bin_05a",
 }
+
+Config.CraftingObject = `prop_toolchest_05`
 
 Config.VendingItem = {
     [1] = {
@@ -322,7 +323,7 @@ Config.AttachmentCrafting = {
     }
 }
 
-MaxInventorySlots = 25
+MaxInventorySlots = 41
 
 BackEngineVehicles = {
     [`ninef`] = true,
