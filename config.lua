@@ -1,3 +1,4 @@
+-- The Lux Empire OG
 Config = {}
 
 Config.VendingObjects = {
@@ -10,11 +11,9 @@ Config.BinObjects = {
     "prop_bin_05a",
 }
 
-Config.CraftingObject = `prop_toolchest_05`
-
 Config.VendingItem = {
     [1] = {
-        name = "kurkakola",
+        name = "cola",
         price = 4,
         amount = 50,
         info = {},
@@ -22,7 +21,7 @@ Config.VendingItem = {
         slot = 1,
     },
     [2] = {
-        name = "water_bottle",
+        name = "raine",
         price = 4,
         amount = 50,
         info = {},
@@ -323,7 +322,7 @@ Config.AttachmentCrafting = {
     }
 }
 
-MaxInventorySlots = 41
+MaxInventorySlots = 25
 
 BackEngineVehicles = {
     [`ninef`] = true,

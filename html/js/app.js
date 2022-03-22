@@ -446,6 +446,9 @@ function FormatItemInfo(itemData) {
             $(".item-info-description").html(
                 "<p>" + itemData.info.uses + " uses left.</p>"
             );
+        } else if (itemData.name == "keyfob") {
+            $(".item-info-title").html('<p>'+itemData.label+'</p>')
+            $(".item-info-description").html('<p><strong>Plate Number: </strong><span>' + itemData.info.plate + '</span></p><p><strong>Vehicle: </strong><span>' + itemData.info.vehname + '</span></p>');
         } else if (itemData.type == "weapon") {
             $(".item-info-title").html("<p>" + itemData.label + "</p>");
             if (itemData.info.ammo == undefined) {
@@ -546,6 +549,9 @@ function FormatItemInfo(itemData) {
         } else if (itemData.name == "stickynote") {
             $(".item-info-title").html("<p>" + itemData.label + "</p>");
             $(".item-info-description").html("<p>" + itemData.info.label + "</p>");
+        } else if (itemData.name == "bankinvoice") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html('<p><strong>Total Loan Amount: </strong><span>' + itemData.info.loanamount + '</span></p><p><strong>Type of Loan: </strong><span>' + itemData.info.loantype + '</span></p>');
         } else if (itemData.name == "moneybag") {
             $(".item-info-title").html("<p>" + itemData.label + "</p>");
             $(".item-info-description").html(
